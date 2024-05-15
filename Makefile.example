@@ -1,0 +1,6 @@
+copy:
+	scp startup.sh ec2-user@{YOUR_INSTANCE_IP}:/home/ec2-user
+deploy:
+	docker build --platform linux/amd64 -t {YOUR_DOCKERHUB_USERNAME}/todo_api . && docker push {YOUR_DOCKERHUB_USERNAME}/todo_api
+connect:
+	ssh ec2-user@{YOUR_INSTANCE_IP}
