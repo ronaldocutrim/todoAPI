@@ -20,6 +20,7 @@ um [desafio de frontend do frontend mentor](https://www.frontendmentor.io/challe
 - Consultas com filtros dinâmicos usando o `ExampleMatcher`
 - Uso de DTOs para a API
 - Injeção de Dependências
+- [ ] Tratar erros
 
 ## Deploy
 
