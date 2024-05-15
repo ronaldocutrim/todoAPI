@@ -44,6 +44,7 @@ Setup em produção
 - Rodar o comando `Make copy` para fazer a copia do setup.sh pra dentro a instancia
 - Rodar o comando `Make connect` para conectar na instancia
 - Rodar o comando ./startup.sh para subir o container da aplicação
+o script startup cuidara de toda a verificação necéssaria pra baixar a imagem mais recente, para o container entre outras validações
 
 Setup em ambiente de desenvolvimento precisara:
 
